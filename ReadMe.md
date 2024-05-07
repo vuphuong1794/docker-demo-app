@@ -28,3 +28,7 @@
 15) docker rm containerID-or-Name = xoa container duoc chi dinh
 16) docker rm $(docker ps -aq) = xoa het tat ca container
 17) docker rm -f $(docker ps -aq) = xoa het tat ca container ke ca khi dang chay
+                    ---FORMAT---
+18) docker ps --format=$FORMAT
+
+19) C:\website>docker run --name website -v "%CD%":/usr/share/nginx/html:ro -d -p 8080:80 nginx = ví dụ vể docker volumes sử dụng file index.html trong folder website thay vì file gốc của nginx
