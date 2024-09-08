@@ -1,3 +1,4 @@
+Docker basic command
                          ---DOCKER PULL---
 1) docker pull = Pull an image or a repository from a registry
 
