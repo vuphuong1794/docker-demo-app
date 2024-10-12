@@ -26,7 +26,7 @@ Docker basic command
 14) docker run --name newName image = Run a command and change container name
 
                     ---REMOVE CONTAINER, IMAGE---
-15) docker rm containerID-or-Name = xoa container duoc chi dinh
+15) docker rm containerID/Name = xoa container duoc chi dinh
 16) docker rm $(docker ps -aq) = xoa het tat ca container
 17) docker rm -f $(docker ps -aq) = xoa het tat ca container ke ca khi dang chay
               
