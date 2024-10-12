@@ -33,5 +33,9 @@ Docker basic command
                     ---FORMAT---
 18) docker ps --format=$FORMAT = format cho de nhin
 
-                    ---VOLUMNS---
+                    ---VOLUMNS (duy trì dữ liệu bên trong container ---
 19) C:\website>docker run --name website -v "%CD%":/usr/share/nginx/html:ro -d -p 8080:80 nginx = ví dụ vể docker volumes sử dụng file index.html trong folder website thay vì file gốc của nginx
+20) ví dụ lưu dữ liệu cho mongo
+    + mkdir data (tạo folder lưu dữ liệu)
+    + docker run -it -p 27017:27017 -v $(pwd)/data:/data/db --name mongo -d mongo
+ví dụ khi container bị lỗi hay ngưng hoạt động hay db bị dừng thì dữ liệu vẫn được duy trì mà ko bị mất
