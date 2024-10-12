@@ -15,7 +15,7 @@ Docker basic command
                          ---DOCKER RUN---
 8) docker run image = Run a command in a new container || pulls image and starts container
 9) docker run -d image = Run the command but can still continue writing other commands 
-10) docker run -pPort:Port = Run a command on speciffic port
+10) docker run -p Port:Port = Run a command on speciffic port
 11) docker run image:version = Pull and run the container version you want
 
                         ---DOCKER DEBUGS---
