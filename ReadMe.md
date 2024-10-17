@@ -1,5 +1,6 @@
 Docker basic command
-                         ---DOCKER PULL---
+
+                    ---DOCKER PULL---
 1) docker pull = Pull an image or a repository from a registry
 
                     ---LIST CONTAINERS, IMAGES---
@@ -12,7 +13,7 @@ Docker basic command
 6) docker start containerId = Start stopped containers
 7) docker stop containerID = Stop one or more running containers
 
-                         ---DOCKER RUN---
+                    ---DOCKER RUN---
 docker run [OPTIONS] ${IMAGE_NAME}:${IMAGE_TAG} command
 ex: docker run -it ubuntu:18.04 sh 
 8) docker run image = Run a command in a new container || pulls image and starts container
@@ -20,11 +21,11 @@ ex: docker run -it ubuntu:18.04 sh
 10) docker run -p Port:Port = Run a command on speciffic port
 11) docker run image:version = Pull and run the container version you want
 
-                        ---DOCKER DEBUGS---
+                    ---DOCKER DEBUGS---
 12) docker logs containerId = Fetch the logs of a container
 13) docker exec -it containerId /bin/bash (ls, pwd, cd/, ls, env, exit ) = Check details information inside image
 
-                        ---DOCKER NAME---
+                    ---DOCKER NAME---
 14) docker run --name newName image = Run a command and change container name
 
                     ---REMOVE CONTAINER, IMAGE---
