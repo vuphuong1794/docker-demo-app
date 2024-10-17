@@ -14,8 +14,8 @@ Docker basic command
 7) docker stop containerID = Stop one or more running containers
 
                     ---DOCKER RUN---
-docker run [OPTIONS] ${IMAGE_NAME}:${IMAGE_TAG} command
-ex: docker run -it ubuntu:18.04 sh 
+- docker run [OPTIONS] ${IMAGE_NAME}:${IMAGE_TAG} command
+- ex: docker run -it ubuntu:18.04 sh 
 8) docker run image = Run a command in a new container || pulls image and starts container
 9) docker run -d image = Run the command but can still continue writing other commands 
 10) docker run -p Port:Port = Run a command on speciffic port
